@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: white;
+    margin: 0;
+}
+
+.jumbotron .jumbotron-heading {
+    font-weight: 300;
+}
+
+/* No seu src/scss/custom.scss */
+
+[city] {
+    display: block;
+    width: 100%;             
+    min-width: 250px;        
+    height: 300px;           
+    object-fit: cover;       
+    border-radius: 8px;      
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    transition: transform 0.3s ease;
+}
+
+[city]:hover {
+    transform: scale(1.02);
+}
+[city-buttons] {
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-shrink: 0;
+    height: 30px;
+}
+
+footer .navbar {
+    bottom: 0;
+    height: 30px;
+}
+[include*="galery.html"] {
+    flex: 1 0 auto;
+}
