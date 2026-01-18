@@ -1,5 +1,5 @@
 import $ from 'jquery'
- import {onLoadHtmlSuccess} from '../../../includes'
+ import {onLoadHtmlSuccess} from '../core/includes'
 
 const duration = 600
 
