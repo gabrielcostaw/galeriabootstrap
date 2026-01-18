@@ -25,6 +25,7 @@ module.exports = {
     filename: 'app.js',
     path: path.resolve(__dirname, 'build'),
     clean: true, // Garante que a pasta build seja limpa a cada execução
+    publicPath: './'
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: 'estilo.css' }),
