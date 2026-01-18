@@ -29,22 +29,18 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({ filename: 'estilo.css' }),
     new CopyWebpackPlugin({
-      patterns: [
-        { from: 'index.html', to: 'index.html' },
-        { 
-          context: 'src',
-          from: '**/*.html', 
-          to: '[path][name][ext]',
-          noErrorOnMissing: true 
-        },
-        { 
-          context: 'src',
-          from: 'imgs/**/*', 
-          to: 'imgs/[name][ext]',
-          noErrorOnMissing: true 
-        },
-      ],
-    }),
+  patterns: [
+    { from: 'index.html', to: 'index.html' },
+    { 
+      from: 'src/pages/**/*.html', 
+      to: '[path][name][ext]' // Isso vai criar src/pages/... dentro do build
+    },
+    { 
+      from: 'src/imgs/**/*', 
+      to: 'imgs/[name][ext]' 
+    },
+  ],
+}),
   ],
   module: {
     rules: [
