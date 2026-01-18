@@ -30,6 +30,7 @@ module.exports = {
     new MiniCssExtractPlugin({ filename: 'estilo.css' }),
     new CopyWebpackPlugin({
       patterns: [
+        { from: 'index.html', to: 'index.html' },
         { 
           context: 'src',
           from: '**/*.html', 
