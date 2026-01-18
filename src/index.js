@@ -8,7 +8,7 @@ import 'bootstrap'
 //meus arquivos js
 // src/index.js
 import $ from 'jquery' // ADICIONE ESTA LINHA NO TOPO
-import './js/core/includes'
+import '../includes'
 import './js/plugins/cityButtons'
 
 const tentarCarregarBotoes = setInterval(() => {
