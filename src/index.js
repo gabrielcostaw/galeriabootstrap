@@ -7,12 +7,12 @@ import 'bootstrap'
 
 //meus arquivos js
 // src/index.js
-import $ from 'jquery' // ADICIONE ESTA LINHA NO TOPO
+import $ from 'jquery' 
 import './js/core/includes'
 import './js/plugins/cityButtons'
 
 const tentarCarregarBotoes = setInterval(() => {
-    // Agora o '$' vai funcionar
+   
     const fotos = $('[city]') 
     
     if (fotos.length > 0) {

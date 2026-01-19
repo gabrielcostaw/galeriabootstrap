@@ -12,19 +12,19 @@ module.exports = {
   port: 9000,
   hot: true,
   client: {
-    overlay: false // Isso desativa COMPLETAMENTE a tela preta para erros e avisos
+    overlay: false 
   }
 },
   optimization: {
     minimizer: [
-      '...', // Mantém o minimizador de JS padrão (Terser)
+      '...', 
       new CssMinimizerPlugin(),
     ],
   },
   output: {
     filename: 'app.js',
     path: path.resolve(__dirname, 'build'),
-    clean: true, // Garante que a pasta build seja limpa a cada execução
+    clean: true, 
     publicPath: './'
   },
   plugins: [
@@ -34,7 +34,7 @@ module.exports = {
     { from: 'index.html', to: 'index.html' },
     { 
       from: 'src/pages/**/*.html', 
-      to: '[path][name][ext]' // Isso vai criar src/pages/... dentro do build
+      to: '[path][name][ext]' 
     },
     { 
       from: 'src/imgs/**/*', 
@@ -57,7 +57,7 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
         generator: {
-          // Mantém as imagens organizadas na pasta imgs do build
+          
           filename: 'imgs/[hash][ext][query]'
         }
       },

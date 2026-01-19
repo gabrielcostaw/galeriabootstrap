@@ -17,7 +17,7 @@ body {
     font-weight: 300;
 }
 
-/* No seu src/scss/custom.scss */
+
 
 [city] {
     display: block;
@@ -58,13 +58,12 @@ footer .navbar {
     flex: 1 0 auto;
 }
 
-/* Isso impede que qualquer coisa "vaze" para os lados do corpo do site */
+
 html, body {
     overflow-x: hidden;
     width: 100%;
 }
 
-/* Garante que as imagens da galeria nunca passem da largura da tela */
 img {
     max-width: 100%;
     height: auto;

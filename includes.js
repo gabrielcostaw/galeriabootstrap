@@ -1,6 +1,5 @@
 import $ from 'jquery'
 
-// Adicionei 'callback' como parâmetro
 
 const loadHtmlSuccessCallbacks = []
 
@@ -20,10 +19,10 @@ export function loadIncludes(parent, callback) {
                 $(e).html(data)
                 $(e).removeAttr('include')
 
-                // Chama a função novamente para includes aninhados
+                
                 loadIncludes(e, callback)
                 
-                // Se houver um callback e não houver mais nada para incluir, executa
+                
                 if (callback && $(parent).find('[include]').length === 0) {
                     callback()
                 
