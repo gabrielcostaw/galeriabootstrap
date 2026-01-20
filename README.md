@@ -1,22 +1,30 @@
--Projeto Galeria de Viagens
-Uma galeria de fotos responsiva e dinâmica focada em manipulação de DOM, filtragem de elementos e organização de componentes com arquitetura de carregamento via Ajax.
+# 📸 Galeria de Viagens Responsiva
 
--Visualização no Mobile
-O projeto foi otimizado para dispositivos móveis, garantindo que os filtros se ajustem em múltiplas linhas e o rodapé permaneça fixo no fundo da tela.
+Um projeto de galeria de fotos dinâmica focado em manipulação de DOM, filtragem de elementos e arquitetura de carregamento modular.
 
--Tecnologias Utilizadas  
-HTML5 & CSS3: Estrutura e estilização customizada.
-Sass (SCSS): Organização avançada de estilos e variáveis.
-Bootstrap 4: Sistema de grid, componentes responsivos e utilitários de espaçamento.
-JavaScript (ES6) & jQuery: Lógica de filtragem dinâmica e manipulação de eventos.
-Webpack: Empacotamento de módulos e automação do fluxo de desenvolvimento.
-Font Awesome: Ícones visuais para redes sociais e interface.
+## 🚀 Sobre o Projeto
+Este projeto foi desenvolvido para praticar a criação de interfaces ricas e funcionais. O diferencial aqui é o uso de **Ajax** para carregar componentes e **Webpack** para organizar o fluxo de desenvolvimento.
 
--Funcionalidades Principais
-Filtragem Dinâmica: Sistema que gera botões automaticamente com base nas cidades cadastradas nas fotos.
-Componentização: Uso de includes para carregar Header, Footer e Galeria de forma modular via Ajax.
-Layout Responsivo: Ajuste automático de colunas (10 colunas no mobile, 6 no tablet e 3 no desktop).
-Sticky Footer: Rodapé inteligente que se mantém na base da página mesmo com pouco conteúdo.
+## 🛠️ Tecnologias Utilizadas
+* **Bootstrap 4**: Sistema de grid e utilitários de espaçamento.
+* **JavaScript (ES6) & jQuery**: Lógica de filtragem dinâmica e manipulação de eventos.
+* **Sass (SCSS)**: Organização avançada de estilos e variáveis.
+* **Webpack**: Empacotamento de módulos e automação.
+* **Font Awesome**: Ícones de interface.
+* **HTML5 & CSS3**: Estrutura e estilização customizada.
 
--Desenvolvedor
-Projeto desenvolvido por Gabriel durante estudos de Front-end focado em Bootstrap e jQuery.# galeriabootstrap
+## 🌟 Funcionalidades Principais
+* **Filtragem Dinâmica**: Sistema que gera botões automaticamente com base nas cidades cadastradas nas fotos.
+* **Componentização via Ajax**: Uso de includes para carregar Header, Footer e Galeria de forma modular.
+* **Layout Adaptável**: 
+  - Mobile: 10 colunas (filtros em múltiplas linhas).
+  - Tablet: 6 colunas.
+  - Desktop: 3 colunas.
+* **Sticky Footer**: Rodapé inteligente que se mantém na base da página.
+
+## 📱 Otimização Mobile
+O projeto foi totalmente otimizado para dispositivos móveis, garantindo que a usabilidade permaneça fluida mesmo em telas pequenas.
+
+---
+**Desenvolvedor:** Gabriel 
+*Projeto focado em estudos de Front-end (Bootstrap e jQuery)*
